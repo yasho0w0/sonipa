@@ -1,0 +1,22 @@
+/* CSS Document */
+
+.banner{
+width:700px; 
+height:300px; 
+border:solid pink; 
+margin:auto; 
+background-size: 100% 100%; 
+animation: banner 10s infinite;}
+@keyframes banner{ 
+0%, 30% { background-image:(C:\Users\LABORATORIO 4.PC17_LAB4\Documents\Carrusel10\Imagenes\20180308-CARROS-FAVORITOS-DE-LAS-MUJERES-COLOMBIANAS-2018-06.jpg);
+background-image:url(../imagenes/auto.jpg)
+}
+31%, 34% { background-image: (C:\Users\LABORATORIO 4.PC17_LAB4\Documents\Carrusel10\Imagenes\carro de mi papá xd.jpg);
+background-image:url(../imagenes/clasico.jpeg) 
+}
+35%, 65% { background-image:(C:\Users\LABORATORIO 4.PC17_LAB4\Documents\Carrusel10\Imagenes\vocho.jpg);
+background-image:url(../imagenes/20180308-CARROS-FAVORITOS-DE-LAS-MUJERES-COLOMBIANAS-2018-06.jpg) 
+}
+66%, 100% { background-image: (C:\Users\LABORATORIO 4.PC17_LAB4\Documents\Carrusel10\Imagenes\auto.jpg); 
+{background-image:url(../imagenes/carro de mi papá xd.jpg)
+}
